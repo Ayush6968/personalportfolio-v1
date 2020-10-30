@@ -1,0 +1,233 @@
+
+body{
+background: #101010;
+	font-family: 'DM Sans', sans-serif;
+	overflow: hidden;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: auto;
+	/* height: 100vh; */
+
+}
+
+.contentforhome{
+	color: white;
+	margin: 0px;
+	padding: 0px;
+	height: 600px;
+
+}
+.content{
+	display: flex;
+	justify-content: space-between;
+	
+
+}
+.main-image{
+	width: 50%;
+	box-sizing: border-box;
+	height: 100vh;
+	margin: 0px;
+	position: absolute;
+    top: -11px;
+    right: 0;
+    bottom: 0;
+	z-index: -2;
+	
+
+}
+
+.my_pic{
+	height: 100%;
+	width: 100%;
+
+}
+
+.my_pic img{
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+	height: 100%;
+	object-fit: cover;
+	background-position: center ;
+
+
+}
+
+.mainpagetext{
+	height:auto;
+    width: 63%;
+    position: absolute;
+    left: 16%;
+    top: 24%;
+    box-sizing: border-box;
+   
+
+}
+
+.mainpagetext h1{
+	font-size:7vw ; 
+	margin: 5px;
+	letter-spacing: 1px;
+
+	}
+
+.mainpagetext h3{
+	font-size: 35px;
+    font-weight: 100;
+    letter-spacing: 0px;
+    margin: 0px;
+    position: relative;
+	top: 7px;
+	
+}
+
+.mainpagetext p{
+	font-size:17px ; 
+	font-weight: 50;
+	margin: 0px;
+	
+}
+.mainpagetext h2{
+	font-size:15px ; 
+	font-weight: 0px;
+	letter-spacing: 3px;
+	margin-top: 30px;
+}
+.mainpagetextheading{
+	margin-top: -10px;
+}
+.mainpagetextpara{
+	margin-top: 30px;
+	/* border: 2px solid yellow; */
+	width: 50%;
+}
+
+.aboutme-homepage{
+	display: flex;
+	margin-top: 30px;
+	width: 320px;
+
+}
+.aboutme-homepage a{
+	text-decoration: none;
+}
+
+.right-arrow-btn{
+	text-decoration: none;
+    width: 85px;
+    height: 1.4px;
+	background-color: white;
+	display: inline-block;
+	position: relative;
+	left: 10px;
+	bottom: 9px;
+	transition: width .2s ease-in-out ;
+}
+
+.animate__animated.animate__fadeInUp {
+	--animate-duration: .7s;
+	animation-timing-function: ease-in-out;
+  }
+.animate__animated.animate__fadeInDown {
+	--animate-duration: .8s;
+	animation-timing-function: ease-in-out;
+  }
+  
+/* .email-icon{
+	border: 2px solid white;
+	width: 125px;
+	margin-left: 10px;
+	margin-top: 35px;
+	height: 40px;
+	padding-top: 15px;
+	padding-left: 8px;
+	font-weight: 1px;
+	text-decoration: none;
+	color: white;
+	font-weight: 2px;
+	letter-spacing: 2px;
+
+} */
+
+.email-icon {
+
+	border: 1.5px solid white;
+	text-decoration: none;
+	color: white;
+	height: 100px
+	
+}
+
+.email-icon h1{
+	font-size: 30px;
+}
+
+
+ .email-icon:hover{
+	cursor: pointer;
+	
+
+}
+.arrowbtnlogo{
+	filter: invert(97%);
+    height: 18px;
+    width: 28px;
+    z-index: -1;
+    position: relative;
+    right: 10px;
+}
+
+
+.about-tag{
+
+	display: flex;
+}
+.hovereffect{
+	margin-left: 10px;
+	padding-top: 3px;
+
+}
+.aboutme-homepage:hover .right-arrow-btn{
+	width: 109px;
+	
+}
+
+.demo{
+	color: white;
+	font-size: 3rem;
+	
+	
+
+
+}
+.geetandimachine{
+	color: white;
+	font-size: 3rem;
+	
+
+}
+.email-button-container{
+	margin-top: 30px;
+
+}
+#email-button {
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+	font-size: 17px;
+	letter-spacing: 1px;
+    border: 1.4px solid white;
+    -webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	
+
+
+}
+
+ #email-button:hover {
+    color: black;
+    background: white;
+    border: 1.4px solid white;
+}
