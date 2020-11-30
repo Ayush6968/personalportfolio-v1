@@ -283,6 +283,9 @@
         margin-top: 0px;
     
     }
+    .mywork-content-last{
+        margin-top: 0px;
+    }
 
     .img-container{
         width: 100%;
@@ -313,6 +316,9 @@
 
 }
 @media screen and (max-width: 550px){
+    .mywork{
+        height: 156vh;
+    }
     .mywork-heading{
         font-size: 20px;
     }
@@ -344,6 +350,9 @@
 }
 
 @media screen and (max-width: 430px){
+    .mywork{
+        height: 125vh;
+    }
     .overlay h1{
         font-size: 2.5rem;
         top: 0px;
