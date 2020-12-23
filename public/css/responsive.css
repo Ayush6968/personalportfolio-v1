@@ -1,7 +1,7 @@
 /* FOR OUR HOMEPAGE */
 @media screen and (max-width: 1024px) {
   body {
-    overflow: auto;
+    overflow: hidden;
   }
   .main-image {
     width: 100vw;
@@ -10,8 +10,8 @@
   .my_pic {
     height: 100%;
     width: 100%;
-    /* background: #000000; */
-    /* opacity: 0.3; */
+    background: #000000;
+    opacity: 0.3;
   }
   .my_pic img {
     width: 100%;
@@ -19,9 +19,9 @@
     object-fit: cover;
     /* background-position:center top ; */
   }
-  /* .filter {
+  .filter {
     display: block;
-  } */
+  }
   /* .hovereffect {
     display: none;
   } */
