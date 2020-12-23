@@ -1,7 +1,9 @@
 /* FOR OUR HOMEPAGE */
 @media screen and (max-width: 1024px) {
   body {
-    overflow: hidden;
+    overflow: scroll;
+    /* border: 1px solid red; */
+    height: 100vh;
   }
   .main-image {
     width: 100vw;
