@@ -16,15 +16,13 @@
   .my_pic img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     /* background-position:center top ; */
   }
   .filter {
     display: block;
   }
-  /* .hovereffect {
-    display: none;
-  } */
+
   .mainpagetext {
     height: 500px;
     width: 80%;
