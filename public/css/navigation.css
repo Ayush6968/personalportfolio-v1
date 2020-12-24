@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Montserrat:wght@300;700&display=swap");
 .Navbar {
   margin: 0px;
   padding: 0px;
@@ -10,20 +12,14 @@
   color: white;
   display: flex;
   align-items: center;
-  padding-left: 30px;
-  padding-top: 30px;
-  /* margin-top: 20px; */
   text-decoration: none;
-  width: 212px;
+  padding-top: 10px;
+  margin-left: 10px;
+  width: 150px;
 }
-
 .logotext1 {
-  /* padding-left: 13px; */
   font-size: 20px;
-  font-weight: 100;
   letter-spacing: 4px;
-  /* margin-top: 20px; */
-  /* padding-top: 3px; */
 }
 
 .menu-icon {
