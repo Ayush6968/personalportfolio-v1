@@ -1,8 +1,9 @@
 /* FOR OUR HOMEPAGE */
 @media screen and (max-width: 1024px) {
   .homepg-body {
-    overflow: hidden;
-    height: 100%;
+    overflow: auto;
+    position: fixed;
+    height: 100vh;
   }
   .main-image {
     top: 0;
