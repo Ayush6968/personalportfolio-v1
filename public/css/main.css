@@ -9,10 +9,10 @@ body {
   background: #101010;
   font-family: "DM Sans", sans-serif;
   overflow: hidden;
-  position: relative;
+  top: 0;
+  right: 0;
   margin: 0px;
   padding: 0px;
-  width: auto;
   height: 100vh;
 }
 
@@ -60,12 +60,13 @@ body {
   left: 9.8%;
   top: 22%;
   box-sizing: border-box;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 .mainpagetext h1 {
   font-size: 8vw;
   margin: 5px;
-  letter-spacing: 1px;
   font-weight: 700;
   margin: 0px;
 }
@@ -77,25 +78,17 @@ body {
   margin: 0px;
   position: relative;
   top: 7px;
+  letter-spacing: 1px;
 }
 
-.mainpagetext p {
+.mainpagetextpara {
+  margin-top: 25px;
+  width: 60%;
+}
+.mainpagetextpara p {
   font-size: 18px;
   font-weight: lighter;
   margin: 0px;
-}
-.mainpagetext h2 {
-  font-size: 15px;
-  font-weight: 0px;
-  letter-spacing: 3px;
-  margin-top: 30px;
-}
-.mainpagetextheading {
-  margin-top: -10px;
-}
-.mainpagetextpara {
-  margin-top: 30px;
-  width: 50%;
 }
 
 .aboutme-homepage {
@@ -103,88 +96,51 @@ body {
   margin-top: 30px;
   width: 320px;
 }
-.aboutme-homepage a {
+.about-tag {
   display: flex;
   text-decoration: none;
   align-items: center;
+  justify-content: center;
 }
-.aboutme-homepage a p {
-  font-size: 15px;
+.about-tag p {
+  font-size: 13px;
 }
 
 .right-arrow-btn {
   text-decoration: none;
-  width: 85px;
-  height: 1.4px;
+  width: 75px;
+  height: 1.5px;
   background-color: white;
   display: inline-block;
-  position: relative;
-  left: 10px;
-  bottom: 9px;
   transition: width 0.4s ease-in-out;
 }
 
-.animate__animated.animate__fadeInUp {
-  --animate-duration: 0.7s;
-  animation-timing-function: ease-in-out;
-}
-.animate__animated.animate__fadeInDown {
-  --animate-duration: 0.8s;
-  animation-timing-function: ease-in-out;
-}
-
-.email-icon {
-  border: 1.5px solid white;
-  text-decoration: none;
-  color: white;
-  height: 100px;
-}
-
-.email-icon h1 {
-  font-size: 30px;
-}
-
-.email-icon:hover {
-  cursor: pointer;
-}
 .arrowbtnlogo {
-  font-size: 15px;
+  font-size: 12px;
   z-index: -1;
-  position: relative;
-  right: -1px;
-  top: -4px;
   color: #ffffff;
 }
 
-.about-tag {
-  display: flex;
-}
 .hovereffect {
-  margin-left: 10px;
-  padding-top: 3px;
+  margin-left: 8px;
+  display: flex;
+  align-items: center;
+  position: relative;
 }
 .aboutme-homepage:hover .right-arrow-btn {
-  width: 109px;
+  width: 105px;
 }
 
-.demo {
-  color: white;
-  font-size: 3rem;
-}
-.geetandimachine {
-  color: white;
-  font-size: 3rem;
-}
 .email-button-container {
   margin-top: 30px;
 }
 #email-button {
   color: white;
-  padding: 7px 15px;
+  padding: 7px 10px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 15px;
   letter-spacing: 1px;
-  border: 1.4px solid white;
+  border: 1.2px solid white;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
 }

@@ -2,9 +2,11 @@
 @media screen and (max-width: 1024px) {
   .homepg-body {
     overflow: hidden;
-    height: 100vh;
+    height: 100%;
   }
   .main-image {
+    top: 0;
+    left: 0;
     width: 100vw;
     height: 100vh;
   }
@@ -17,12 +19,11 @@
   .filter {
     display: block;
   }
-
   .mainpagetext {
     height: 500px;
     width: 80%;
     top: 30%;
-    left: 10%;
+    left: 6%;
     margin: auto auto;
     box-sizing: border-box;
   }
@@ -39,7 +40,7 @@
     top: 7px;
   }
   .mainpagetext h1 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     letter-spacing: 1px;
   }
   .mainpagetext p {
