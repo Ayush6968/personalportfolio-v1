@@ -1,7 +1,7 @@
 /* FOR OUR HOMEPAGE */
 @media screen and (max-width: 1024px) {
   body {
-    overflow: scroll;
+    overflow: auto;
     /* border: 1px solid red; */
     height: 100vh;
   }
