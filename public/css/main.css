@@ -38,6 +38,8 @@ body {
 .my_pic {
   height: 100%;
   width: 100%;
+  background: #000000;
+  opacity: 0.5;
 }
 
 .my_pic video {

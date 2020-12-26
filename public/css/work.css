@@ -15,7 +15,7 @@ body {
   padding: 0px;
 }
 .mywork-container {
-  width: 85%;
+  width: 1200px;
   margin: auto;
 }
 
@@ -29,16 +29,21 @@ body {
   justify-content: space-evenly;
   padding: 30px 0px;
 }
+.work-image-content {
+  width: 45%;
+}
 .img-container {
   width: 100%;
-  border: 1px solid red;
-  height: 500px;
+  border-top: 1px solid hsla(0, 0%, 100%, 0.25);
+  display: flex;
+  box-sizing: border-box;
+  padding: 20px 0px;
+  justify-content: space-between;
 }
 .content-container {
   position: relative;
-  width: 45%;
-  height: 75%;
-  border-top: 1px solid rgb(255 255 255 / 25%);
+  width: 55%;
+  height: 350px;
 }
 .content-container img {
   height: 100%;
@@ -50,7 +55,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  background: rgb(0, 0, 0, 0.4);
+  background: rgb(0, 0, 0, 0.2);
   height: 100%;
   width: 100%;
 }

@@ -130,25 +130,48 @@
 }
 
 /* FOR ABOUT PAGE */
+@media screen and (max-width: 1056px) {
+  .Mystory {
+    height: 80vh;
+  }
+  .myskills {
+    top: 180vh;
+  }
+}
 @media screen and (max-width: 845px) {
   .topheading-about {
     width: 80%;
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
+  /* .mystory-text {
+    width: 90%;
+  }
+  .myskills-text {
+    width: 90%;
+  } */
 }
 @media screen and (max-width: 737px) {
   .Mystory {
-    height: auto;
+    height: 50vh;
+  }
+  .myskills {
+    top: 150vh;
+  }
+  .mystory-text {
+    width: 85%;
+  }
+  .myskills-text {
+    width: 85%;
   }
   .mystory-text h1 {
-    font-size: 2.5rem;
+    font-size: 1.8rem;
     letter-spacing: 2px;
     font-weight: bold;
     width: auto;
   }
 
   .mystory-text h2 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     letter-spacing: 2px;
     font-weight: bold;
     width: auto;
@@ -156,53 +179,58 @@
 
   .mystory-text p {
     letter-spacing: 1px;
-    font-size: 17px;
+    font-size: 0.9rem;
     margin-top: 35px;
   }
-  .whatido-container {
+
+  .myskillsheading h1 {
+    font-size: 1.8rem;
+  }
+
+  .myskills-content {
     height: auto;
   }
-  .whatido-icons {
-    margin-top: 50px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 20px;
-    font-weight: lighter;
-  }
-  .whatido-heading {
-    font-size: 2rem;
-    letter-spacing: 2px;
-    font-weight: bold;
-  }
-  .containerforicons {
-    width: auto;
-    text-align: center;
-  }
-  .myskillsheading {
-    font-size: 1.5rem;
-    margin-top: 30px;
+}
+@media screen and (max-width: 565px) {
+  /* .Mystory {
+    height: 55vh;
+  } */
+  .mystory-text p {
+    font-size: 0.8rem;
   }
   .myskills {
-    height: auto;
-  }
-  .myskills-content {
-    height: auto;
+    top: 140vh;
   }
 }
-@media screen and (max-width: 378px) {
-  .myskills-content {
-    width: auto;
+@media screen and (max-width: 460px) {
+  .Mystory {
+    height: 57vh;
   }
-}
-@media screen and (max-width: 1240px) {
+  .myskills {
+    top: 147vh;
+  }
   .myskills-text {
     flex-direction: column;
-    justify-content: space-evenly;
   }
   .myskills-content {
-    margin: 0px auto;
+    left: 0;
+    top: 10%;
+  }
+}
+@media screen and (max-width: 395px) {
+  .Mystory {
+    height: 64vh;
+  }
+  .myskills {
+    top: 155vh;
+  }
+}
+@media screen and (max-width: 395px) {
+  .myskills {
+    top: 160vh;
+  }
+  .topheading-about {
+    font-size: 2rem;
   }
 }
 

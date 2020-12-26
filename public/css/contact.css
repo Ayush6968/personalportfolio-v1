@@ -58,7 +58,7 @@ body {
   appearance: none;
   color: white;
   padding: 10px 20px;
-  background: black;
+  background: #101010;
   width: 115px;
   text-decoration: none;
   font-size: 17px;
@@ -66,7 +66,7 @@ body {
   border: 1.4px solid white;
   -webkit-transition: 0.3s ease-in-out;
   transition: 0.3s ease-in-out;
-  padding: 0px;
+  padding: 8px;
 }
 
 #submit-btn:hover {
