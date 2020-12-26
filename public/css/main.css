@@ -59,7 +59,7 @@ body {
   height: auto;
   width: 63%;
   position: absolute;
-  left: 9.8%;
+  left: 9.1%;
   top: 22%;
   box-sizing: border-box;
   padding: 20px;
@@ -150,7 +150,7 @@ body {
 #email-button:hover {
   color: black;
   background: white;
-  border: 1.4px solid white;
+  border: 1.2px solid white;
 }
 .social-icons {
   color: #ffffff;

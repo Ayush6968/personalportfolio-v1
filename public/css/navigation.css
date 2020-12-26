@@ -13,13 +13,14 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding-top: 15px;
+  padding-top: 12px;
   margin-left: 10px;
   width: 150px;
 }
 .logotext1 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   letter-spacing: 2px;
+  font-weight: 100;
 }
 
 .menu-icon {

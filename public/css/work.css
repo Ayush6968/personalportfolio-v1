@@ -10,8 +10,8 @@ body {
 }
 
 .mywork {
-  height: 150vh;
-  margin-top: 50px;
+  /* height: 150vh; */
+  margin-top: 100px;
   padding: 0px;
 }
 .mywork-container {
@@ -20,7 +20,7 @@ body {
 }
 
 .mywork-heading {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 .mywork-content {
@@ -31,6 +31,7 @@ body {
 }
 .work-image-content {
   width: 45%;
+  position: relative;
 }
 .img-container {
   width: 100%;
@@ -39,6 +40,15 @@ body {
   box-sizing: border-box;
   padding: 20px 0px;
   justify-content: space-between;
+}
+.img-cont-border {
+  border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
+}
+.img-container h1 {
+  font-size: 2rem;
+}
+.img-container p {
+  font-size: 1.2rem;
 }
 .content-container {
   position: relative;
@@ -110,4 +120,34 @@ body {
 }
 .visit-button-container:hover a {
   color: white;
+}
+.site-btn-container {
+  position: absolute;
+  bottom: 10px;
+}
+#site-btn {
+  color: white;
+  padding: 7px 10px;
+  text-decoration: none;
+  font-size: 15px;
+  letter-spacing: 1px;
+  border: 1.2px solid white;
+  -webkit-transition: 0.3s ease-in-out;
+  transition: 0.3s ease-in-out;
+}
+
+#site-btn:hover {
+  color: black;
+  background: white;
+  border: 1.2px solid white;
+}
+.client {
+  position: absolute;
+  bottom: 5px;
+  left: 40%;
+}
+.client-name {
+  position: absolute;
+  bottom: 1px;
+  left: 80%;
 }
