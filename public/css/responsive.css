@@ -216,107 +216,44 @@
 }
 
 /* FOR WORK PAGE */
-@media screen and (max-width: 1030px) {
-  .mywork-content {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-evenly;
-    margin-top: 0px;
-  }
-  .mywork-content-last {
-    margin-top: 0px;
-  }
-
-  .img-container {
+@media screen and (max-width: 1250px) {
+  .mywork-container {
     width: 100%;
+  }
+  .mywork-content {
+    padding: 25px 10px;
+  }
+}
+@media screen and (max-width: 950px) {
+  .mywork-container {
+    margin-top: 150px;
+  }
+  .mywork-content {
     margin-top: 20px;
   }
-  .content-container1 {
-    width: 100%;
-    height: 100%;
-    position: relative;
-  }
-  .content-container1 img {
-    height: 100%;
-    width: 100%;
-    display: block;
-    /* object-fit: contain;
-         */
-  }
-}
-@media screen and (max-width: 700px) {
   .mywork-heading {
-    font-size: 1.5rem;
+    font-size: 2rem;
     text-align: center;
   }
-}
-@media screen and (max-width: 550px) {
-  .mywork {
-    height: 156vh;
+  .overlay {
+    background: rgb(0, 0, 0, 0.6);
   }
-  .mywork-heading {
-    font-size: 20px;
-  }
-  .overlay h1 {
-    font-size: 3.2rem;
-  }
-  .overlay p {
+  .work-image-content {
+    /* display: none; */
     position: absolute;
-    left: 16px;
-    bottom: 38px;
-    font-size: 25px;
-    font-weight: lighter;
+    top: 5%;
+    left: 0;
+    z-index: 9999;
+    /* border: 1px solid red; */
+    height: 85%;
+    width: 100%;
+    padding: 25px 10px;
   }
-
-  .visit-button-container {
-    position: absolute;
-    bottom: 29px;
-    left: 22px;
-    width: 90px;
-    height: 25px;
-  }
-  .visit-button-container a {
-    color: black;
-    font-weight: bolder;
-    letter-spacing: 1.4px;
-    font-size: 15px;
+  .content-container {
+    width: 100%;
   }
 }
 
-@media screen and (max-width: 430px) {
-  .mywork {
-    height: 125vh;
-  }
-  .overlay h1 {
-    font-size: 2.5rem;
-    top: 0px;
-    right: 0px;
-    padding: 0px;
-    margin: 4px;
-    letter-spacing: 0px;
-  }
-  .overlay p {
-    position: absolute;
-    left: 16px;
-    bottom: 38px;
-    font-size: 20px;
-    font-weight: lighter;
-  }
-
-  .visit-button-container {
-    position: absolute;
-    bottom: 29px;
-    left: 22px;
-    width: 70px;
-    height: 22px;
-  }
-  .visit-button-container a {
-    color: black;
-    font-weight: bolder;
-    letter-spacing: 1.4px;
-    font-size: 12px;
-  }
-}
 /* FOR 404 PAGE */
 @media screen and (max-width: 550px) {
   .errortext {
