@@ -1,8 +1,7 @@
 /* FOR OUR HOMEPAGE */
 @media screen and (max-width: 1024px) {
   .homepg-body {
-    overflow: auto;
-    position: fixed;
+    overflow: hidden;
     height: 100vh;
   }
   .main-image {
@@ -15,17 +14,18 @@
     height: 100%;
     width: 100%;
     background: #000000;
-    opacity: 0.3;
+    opacity: 0.5;
   }
+
   .filter {
     display: block;
+    backdrop-filter: blur(1px);
   }
   .mainpagetext {
-    height: 500px;
+    padding: 20px;
     width: 80%;
     top: 30%;
-    left: 6%;
-    margin: auto auto;
+    left: 10%;
     box-sizing: border-box;
   }
   .mainpagetextpara {
@@ -37,30 +37,54 @@
     font-weight: 100;
     letter-spacing: 0px;
     margin: 0px;
-    position: relative;
-    top: 7px;
   }
   .mainpagetext h1 {
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     letter-spacing: 1px;
+    margin-top: 10px;
   }
   .mainpagetext p {
     font-size: 17px;
     font-weight: 50;
     margin: 0px;
   }
-  @media screen and (max-width: 320px) {
+  @media screen and (max-width: 450px) {
     .mainpagetext {
-      height: auto;
-      width: 250px;
-      position: absolute;
-      left: 10%;
-      top: 20%;
-      box-sizing: border-box;
+      width: 80%;
+      top: 35%;
+      left: 8%;
+      padding: 0px;
     }
-
+    .email-button-container {
+      margin-top: 15px;
+    }
+    #email-button {
+      padding: 5px 7px;
+      font-size: 10px;
+    }
+    .right-arrow-btn {
+      width: 60px;
+    }
+    .aboutme-homepage:hover .right-arrow-btn {
+      width: 90px;
+    }
     .aboutme-homepage {
       width: auto;
+    }
+    .about-tag p {
+      font-size: 0.8rem;
+    }
+  }
+  @media screen and (max-width: 380px) {
+    .mainpagetext h1 {
+      font-size: 2.2rem;
+      margin-top: 0px;
+    }
+    .mainpagetext p {
+      font-size: 15px;
+    }
+    .about-tag p {
+      font-size: 0.7rem;
     }
   }
 
@@ -79,10 +103,6 @@
     right: 25px;
     top: 29px;
   }
-  /* .menu-icon__line {
-    height: 1px;
-    margin-bottom: 6px;
-  } */
   .nav__content {
     text-align: left;
   }
@@ -130,33 +150,14 @@
 }
 
 /* FOR ABOUT PAGE */
-@media screen and (max-width: 1056px) {
-  .Mystory {
-    height: 80vh;
-  }
-  .myskills {
-    top: 180vh;
-  }
-}
+
 @media screen and (max-width: 845px) {
   .topheading-about {
     width: 80%;
     font-size: 2.5rem;
   }
-  /* .mystory-text {
-    width: 90%;
-  }
-  .myskills-text {
-    width: 90%;
-  } */
 }
 @media screen and (max-width: 737px) {
-  .Mystory {
-    height: 50vh;
-  }
-  .myskills {
-    top: 150vh;
-  }
   .mystory-text {
     width: 85%;
   }
@@ -190,47 +191,27 @@
   .myskills-content {
     height: auto;
   }
+  .myskills {
+    margin-top: 50px;
+  }
 }
 @media screen and (max-width: 565px) {
-  /* .Mystory {
-    height: 55vh;
-  } */
   .mystory-text p {
     font-size: 0.8rem;
   }
-  .myskills {
-    top: 140vh;
-  }
 }
 @media screen and (max-width: 460px) {
-  .Mystory {
-    height: 57vh;
-  }
-  .myskills {
-    top: 147vh;
-  }
-  .myskills-text {
-    flex-direction: column;
+  .topheading-about {
+    font-size: 2rem;
   }
   .myskills-content {
     left: 0;
-    top: 10%;
   }
-}
-@media screen and (max-width: 395px) {
-  .Mystory {
-    height: 64vh;
+  .myskills-iconandtext {
+    padding-left: 0px;
   }
-  .myskills {
-    top: 155vh;
-  }
-}
-@media screen and (max-width: 395px) {
-  .myskills {
-    top: 160vh;
-  }
-  .topheading-about {
-    font-size: 2rem;
+  .myskills-text {
+    flex-direction: column;
   }
 }
 
