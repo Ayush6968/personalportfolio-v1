@@ -93,7 +93,6 @@ body {
 
 .aboutme-homepage {
   margin-top: 20px;
-  width: 250px;
 }
 
 .about-tag {
@@ -125,9 +124,10 @@ body {
 }
 
 .arrowbtnlogo {
-  font-size: 10px;
-  z-index: -1;
+  font-size: 12px;
   color: #ffffff;
+  position: absolute;
+  right: -1.5px;
 }
 
 .aboutme-homepage:hover .right-arrow-btn {
