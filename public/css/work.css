@@ -69,58 +69,7 @@ body {
   height: 100%;
   width: 100%;
 }
-.overlay h1 {
-  position: absolute;
-  font-size: 4.5rem;
-  top: 0px;
-  right: 0px;
-  padding: 0px;
-  margin: 17px;
-  letter-spacing: 0px;
 
-  /* height: 100px; */
-  /* border: 2px solid red; */
-}
-.overlay p {
-  position: absolute;
-  left: 34px;
-  bottom: 55px;
-  /* height: auto; */
-  font-size: 30px;
-  font-weight: lighter;
-}
-.visit-button-container {
-  color: black;
-  position: absolute;
-  bottom: 38px;
-  left: 35px;
-  font-family: "DM Sans", sans-serif;
-  background: white;
-  text-decoration: none;
-  font-weight: bold;
-  width: 110px;
-  height: 35px;
-  border: 1.4px solid white;
-  transition: 0.3s ease-in-out;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.visit-button-container a {
-  text-decoration: none;
-  font-size: 17px;
-  color: black;
-  letter-spacing: 1.4px;
-}
-
-.visit-button-container:hover {
-  color: white;
-  background: transparent;
-  border: 1.4px solid white;
-}
-.visit-button-container:hover a {
-  color: white;
-}
 .site-btn-container {
   position: absolute;
   bottom: 10px;

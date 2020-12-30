@@ -253,10 +253,36 @@
     width: 100%;
   }
 }
+@media screen and (max-width: 450px) {
+  .mywork-heading {
+    font-size: 1.5rem;
+  }
+}
 
 /* FOR 404 PAGE */
 @media screen and (max-width: 550px) {
   .errortext {
     font-size: 20px;
+  }
+  .img-container h1 {
+    font-size: 1.4rem;
+  }
+  .img-container p {
+    font-size: 0.9rem;
+  }
+  .client {
+    display: none;
+  }
+  .client-name {
+    display: none;
+  }
+  .site-btn-container {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+  }
+  #site-btn {
+    padding: 5px 5px;
+    font-size: 13px;
   }
 }
