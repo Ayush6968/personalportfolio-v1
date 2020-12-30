@@ -61,7 +61,7 @@
 
 /* FOR WORK IMAGES */
 .fade-in-right {
-  animation: fade-in-right 0.7s ease-in-out 0.2s both;
+  animation: fade-in-right 0.7s ease-in-out 0.2s backwards;
 }
 @keyframes fade-in-right {
   0% {
