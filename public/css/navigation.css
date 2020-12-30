@@ -13,14 +13,17 @@
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding-top: 12px;
+  padding-top: 7px;
   margin-left: 10px;
   width: 150px;
+}
+.logo:hover {
+  color: #393bcb;
 }
 .logotext1 {
   font-size: 1.8rem;
   letter-spacing: 2px;
-  font-weight: 100;
+  font-weight: 100 q;
 }
 
 .menu-icon {
@@ -117,7 +120,7 @@ body.nav-active .nav__list-item a {
 .nav__list-item:before {
   content: "";
   position: absolute;
-  background: white;
+  background: #393bcb;
   width: 0px;
   height: 0.5px;
   top: 100%;
@@ -162,6 +165,7 @@ body.nav-active .nav:after {
 body.nav-active .nav__list-item {
   opacity: 1;
   transform: translateX(0%);
+
   transition: opacity 0.3s ease, transform 0.3s ease, color 0.3s ease;
 }
 

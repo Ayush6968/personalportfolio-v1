@@ -58,3 +58,32 @@
     opacity: 1;
   }
 }
+
+/* FOR WORK IMAGES */
+.fade-in-right {
+  animation: fade-in-right 0.7s ease-in-out 0.2s both;
+}
+@keyframes fade-in-right {
+  0% {
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+/* FOR WORK TEXT */
+.fade-in-left {
+  animation: fade-in-left 0.7s ease-in-out 0.2s both;
+}
+@keyframes fade-in-left {
+  0% {
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
