@@ -75,7 +75,7 @@
 }
 /* FOR WORK TEXT */
 .fade-in-left {
-  animation: fade-in-left 0.6s ease-in-out 0.1s both;
+  animation: fade-in-left 0.6s ease-in-out 0.1s backwards;
 }
 @keyframes fade-in-left {
   0% {
