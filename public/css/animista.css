@@ -61,11 +61,11 @@
 
 /* FOR WORK IMAGES */
 .fade-in-right {
-  animation: fade-in-right 0.6s ease-in-out 0.1s backwards;
+  animation: fade-in-right 0.6s ease-in-out 0.2s backwards;
 }
 @keyframes fade-in-right {
   0% {
-    transform: translateX(50px);
+    transform: translateX(10px);
     opacity: 0;
   }
   100% {
@@ -75,7 +75,7 @@
 }
 /* FOR WORK TEXT */
 .fade-in-left {
-  animation: fade-in-left 0.6s ease-in-out 0.1s backwards;
+  animation: fade-in-left 0.6s ease-in-out 0.2s backwards;
 }
 @keyframes fade-in-left {
   0% {
