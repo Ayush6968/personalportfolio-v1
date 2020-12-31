@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,63 +9,68 @@
     <link rel="stylesheet" href="\css\contact.css">
     <link rel="stylesheet" href="\css\responsive.css">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
-    <link rel="icon" href="img\alogo.png" type="image/icon type">
+    <link rel="icon" href="img\alogo.png" type="image/png" />
     <style>
-    .contact-container1{
-        width: 85%;
-        margin: auto;
-        display: flex;
-        justify-content: space-around;
-        z-index: 2;
-        text-align: center;
-    
-    }
-    .contact-heading1{
-        font-size: 2.5rem;
-        letter-spacing: 2px;
-        font-weight: bold;
-        margin-top: 90px;
+        .contact-container1 {
+            width: 85%;
+            margin: auto;
+            display: flex;
+            justify-content: space-around;
+            z-index: 2;
+            text-align: center;
 
-    }
+        }
 
-      .response-msg{
-          border: 1.3px solid white;
-          height: 75px;
-          display: flex;
-          align-items:center;
-          justify-content: center;
-          width: auto;
-          padding: 0px 100px;
-          margin-top: 150px;
-          font-size: 15px;
-      }
-      @media screen and (max-width: 1088px){
-          .contact-container1{
-             flex-direction: column;
-          }
-            .response-msg{
+        .contact-heading1 {
+            font-size: 2.5rem;
+            letter-spacing: 2px;
+            font-weight: bold;
+            margin-top: 90px;
+
+        }
+
+        .response-msg {
+            border: 1.3px solid white;
+            height: 75px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: auto;
+            padding: 0px 100px;
+            margin-top: 150px;
+            font-size: 15px;
+        }
+
+        @media screen and (max-width: 1088px) {
+            .contact-container1 {
+                flex-direction: column;
+            }
+
+            .response-msg {
                 padding: 0px 0px;
                 height: 70px;
                 margin-top: 0px;
             }
-            .contact-heading1{
+
+            .contact-heading1 {
                 font-size: 2rem;
             }
-      }
+        }
     </style>
 </head>
+
 <body>
     {{>navbar}}
     <section class="contact-container1">
         <div class="contact-heading1">
             <h1>Contact</h1>
         </div>
-        <div class="response-msg" >
-         <p>Thank you ! Your submission has been recived !</p>
+        <div class="response-msg">
+            <p>Thank you ! Your submission has been recived !</p>
         </div>
-       
+
     </section>
-    
+
 </body>
 <script src="\js\navbar.js"></script>
 
