@@ -21,7 +21,7 @@
 </head>
 
 
-<body class="homepg-body" onresize="resize()" id="homepg-body">
+<body class="homepg-body" id="homepg-body">
     <div class="hero-navbar-content-container">
         {{>navbar}}
         <section class="homepage">
@@ -110,6 +110,13 @@
     </script>
 
     <script src="\js\navbar.js"></script>
+    <script>
+        window.addEventListener('resize', () => {
+            let vh = window.innerHeight;
+            // Then we set the value in the --vh custom property to the root of the document
+            document.getElementById('homepg-body').style.setProperty('--height', `${vh}px`);
+        });
+    </script>
 
 
 </body>
