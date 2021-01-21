@@ -14,12 +14,12 @@
     height: 100%;
     width: 100%;
     background: #000000;
-    opacity: 0.75;
+    opacity: 0.6;
   }
 
   .filter {
     display: block;
-    backdrop-filter: blur(0.7px);
+    backdrop-filter: blur(1px);
   }
   .mainpagetext {
     padding: 20px;
