@@ -17,10 +17,11 @@
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 
+
 </head>
 
 
-<body class="homepg-body">
+<body class="homepg-body" onresize="resize()" id="homepg-body">
     <div class="hero-navbar-content-container">
         {{>navbar}}
         <section class="homepage">
@@ -52,22 +53,18 @@
                         </div>
                     </div>
                     <div class="main-image fade-in-top">
-                        <div class="my_pic" id="my_pic">
-                            <div class="filter"></div>
-                            <video autoplay="true" loop="true" muted="true" class="fade-in-top">
-                                <source src="video/homepgvideo.mp4" type="video/mp4">
-                                Sorry, your browser doesn't support embedded videos.
-                            </video>
-
-                        </div>
+                        <div class="filter"></div>
+                        <div class="shape"></div>
                     </div>
 
                 </div>
             </div>
             <div class="social-icons">
-                <a href="https://www.instagram.com/_ayushguptaa/" target="_blank"> <i class="fab fa-instagram"></i> </a>
-                <a href="https://github.com/Ayush6968" target="_blank"> <i class="fab fa-github"></i> </a>
-                <a href="https://www.linkedin.com/in/ayush-gupta-54a855139/" target="_blank"> <i
+                <a href="https://www.instagram.com/_ayushguptaa/" target="_blank" rel="noopener"> <i
+                        class="fab fa-instagram"></i> </a>
+                <a href="https://github.com/Ayush6968" target="_blank" rel="noopener"> <i class="fab fa-github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/ayush-gupta-54a855139/" target="_blank" rel="noopener"> <i
                         class="fab fa-linkedin"></i> </a>
             </div>
 
@@ -81,7 +78,7 @@
             <div class="triangle triangle-3"></div>
             <div class="triangle triangle-4"></div>
             <div class="triangle triangle-5"></div>
-            <p class="triangle-loading" id="status">minimilisim is my religion</p>
+
         </div>
     </div>
 
@@ -103,27 +100,19 @@
 
 
     {{!-- SCRIPT FOR PRELOADER --}}
-
     <script>
         $(window).on('load', function () {
-            setTimeout(() => {
-                console.log('working')
-                $('#status').fadeOut(); // will first fade out the loading animation 
-                $('#preloader').delay(350).fadeOut('slow'); // will fade out the white DIV that covers the website. 
-                $('.hero-navbar-content-container').delay(350).css({ 'display': 'block' });
-            }, 3500);
+            $('#preloader').delay(1000).fadeOut(3000, () => {
+                $('.hero-navbar-content-container').fadeIn(500)
 
-        })
+            });
+        });
     </script>
+
     <script src="\js\navbar.js"></script>
 
 
 </body>
 
-
-
-</html>
-
-</body>
 
 </html>
