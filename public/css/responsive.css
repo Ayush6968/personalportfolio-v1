@@ -10,12 +10,6 @@
     width: 100vw;
     height: 100vh;
   }
-  .my_pic {
-    height: 100%;
-    width: 100%;
-    background: #000000;
-    opacity: 0.6;
-  }
 
   .filter {
     display: block;
@@ -23,14 +17,14 @@
   }
   .mainpagetext {
     padding: 20px;
-    width: 80%;
+    width: 90%;
     top: 30%;
     left: 10%;
     box-sizing: border-box;
   }
   .mainpagetextpara {
     margin-top: 20px;
-    width: 91%;
+    width: 95%;
   }
   .mainpagetext h3 {
     font-size: 20px;
@@ -59,8 +53,8 @@
       margin-top: 15px;
     }
     #email-button {
-      padding: 5px 7px;
-      font-size: 10px;
+      padding: 5px 8px;
+      font-size: 12px;
     }
     .right-arrow-btn {
       width: 60px;
@@ -74,10 +68,19 @@
     .about-tag p {
       font-size: 0.8rem;
     }
+    .shape {
+      width: 205px;
+      height: 205px;
+      position: absolute;
+      left: calc(50% - 115px);
+      top: calc(50% - 90px);
+      -webkit-animation: shapes2 3s ease-in-out infinite;
+      animation: shapes2 3s ease-in-out infinite;
+    }
   }
   @media screen and (max-width: 380px) {
     .mainpagetext h1 {
-      font-size: 2.2rem;
+      font-size: 2.5rem;
       margin-top: 0px;
     }
     .mainpagetext p {

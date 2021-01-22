@@ -15,7 +15,7 @@
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
         integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
 
 
 </head>
@@ -100,6 +100,7 @@
 
 
     {{!-- SCRIPT FOR PRELOADER --}}
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(window).on('load', function () {
             $('#preloader').delay(1000).fadeOut(3000, () => {
@@ -110,13 +111,6 @@
     </script>
 
     <script src="\js\navbar.js"></script>
-    <script>
-        window.addEventListener('resize', () => {
-            let vh = window.innerHeight;
-            // Then we set the value in the --vh custom property to the root of the document
-            document.getElementById('homepg-body').style.setProperty('--height', `${vh}px`);
-        });
-    </script>
 
 
 </body>

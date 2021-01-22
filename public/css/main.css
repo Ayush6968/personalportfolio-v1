@@ -38,25 +38,12 @@ body {
   background: rgb(15, 4, 228);
 }
 
-.my_pic {
-  height: 100%;
-  width: 100%;
-  background: #000000;
-  opacity: 0.75;
-}
-
-.my_pic video {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
-}
 .filter {
   width: 100%;
   max-width: 100%;
   height: 100%;
   position: absolute;
   backdrop-filter: blur(0.5px);
-  /* display: none; */
   z-index: 9999;
   background: #000000;
   opacity: 0.3;
@@ -100,7 +87,7 @@ body {
 
 .aboutme-homepage {
   margin-top: 20px;
-  width: 250px;
+  width: 90%;
 }
 
 .about-tag {
@@ -259,11 +246,11 @@ body {
 
 /* background animation */
 .shape {
-  width: 300px;
-  height: 300px;
+  width: 205px;
+  height: 205px;
   position: absolute;
-  left: calc(50% - 150px);
-  top: calc(50% - 75px);
+  left: calc(50% - 115px);
+  top: calc(50% - 90px);
   -webkit-animation: shapes2 3s ease-in-out infinite;
   animation: shapes2 3s ease-in-out infinite;
 }
@@ -319,8 +306,8 @@ body {
     transform: rotate(90deg) translateX(-20px);
   }
 }
-body .shape:before,
-body .shape:after {
+.shape:before,
+.shape:after {
   content: "";
   position: absolute;
   width: 100%;
@@ -351,7 +338,7 @@ body .shape:after {
     8% 51%
   );
 }
-body .shape:after {
+.shape:after {
   width: 90%;
   height: 90%;
   background: repeating-linear-gradient(
