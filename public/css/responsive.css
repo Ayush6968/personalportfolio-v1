@@ -2,7 +2,7 @@
 @media screen and (max-width: 1024px) {
   .homepg-body {
     overflow: hidden;
-    height: 100vh;
+    /* height: 100vh; */
   }
   .main-image {
     top: 0;
@@ -13,8 +13,8 @@
 
   .filter {
     display: block;
-    backdrop-filter: blur(1px);
   }
+
   .mainpagetext {
     padding: 20px;
     width: 90%;
@@ -45,7 +45,7 @@
   @media screen and (max-width: 450px) {
     .mainpagetext {
       width: 80%;
-      top: 35%;
+      top: 30%;
       left: 8%;
       padding: 0px;
     }
@@ -76,6 +76,9 @@
       top: calc(50% - 90px);
       -webkit-animation: shapes2 3s ease-in-out infinite;
       animation: shapes2 3s ease-in-out infinite;
+    }
+    .social-icons {
+      left: 8%;
     }
   }
   @media screen and (max-width: 380px) {

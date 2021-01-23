@@ -11,7 +11,7 @@ body {
   overflow: hidden;
   margin: 0px;
   padding: 0px;
-  height: 100vh;
+  /* height: 100vh; */
 }
 
 .hero-navbar-content-container {
@@ -97,7 +97,7 @@ body {
   justify-content: flex-start;
 }
 .about-tag p {
-  font-size: 15px;
+  font-size: 13px;
   letter-spacing: 1.5px;
 }
 .hovereffect {
@@ -127,13 +127,13 @@ body {
 }
 
 .email-button-container {
-  margin-top: 20px;
+  margin-top: 30px;
 }
 #email-button {
   color: white;
   padding: 8px 10px;
   text-decoration: none;
-  font-size: 14px;
+  font-size: 15px;
   letter-spacing: 1px;
   border: 1.2px solid white;
   -webkit-transition: 0.3s ease-in-out;
@@ -151,9 +151,8 @@ body {
   position: absolute;
   bottom: 20px;
   left: 30px;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   text-align: center;
-  outline: 1px;
 }
 .social-icons a {
   font-size: 24px;
@@ -246,11 +245,11 @@ body {
 
 /* background animation */
 .shape {
-  width: 205px;
-  height: 205px;
+  width: 300px;
+  height: 300px;
   position: absolute;
-  left: calc(50% - 115px);
-  top: calc(50% - 90px);
+  left: calc(50% - 150px);
+  top: calc(50% - 75px);
   -webkit-animation: shapes2 3s ease-in-out infinite;
   animation: shapes2 3s ease-in-out infinite;
 }

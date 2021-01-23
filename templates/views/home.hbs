@@ -29,7 +29,7 @@
                 <div class="content">
                     <div class="mainpagetext fade-in-bottom-text">
                         <div class="mainpage-heading">
-                            <h3>Full stack web developer</h3>
+                            <h3> web developer & designer</h3>
                             <h1>Ayush Gupta</h1>
                         </div>
                         <div class="mainpagetextpara">
@@ -103,7 +103,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(window).on('load', function () {
-            $('#preloader').delay(1000).fadeOut(3000, () => {
+            $('#preloader').fadeOut(3000, () => {
                 $('.hero-navbar-content-container').fadeIn(500)
 
             });
@@ -111,6 +111,19 @@
     </script>
 
     <script src="\js\navbar.js"></script>
+
+    <script type="text/javascript">
+        function resize() {
+            var heights = window.innerHeight;
+            document.getElementById("homepg-body").style.height = heights + "px";
+        }
+        resize();
+        window.onresize = function () {
+            resize();
+        };
+
+
+    </script>
 
 
 </body>
