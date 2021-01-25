@@ -60,12 +60,11 @@
                 </div>
             </div>
             <div class="social-icons">
-                <a href="https://www.instagram.com/_ayushguptaa/" target="_blank" rel="noopener"> <i
-                        class="fab fa-instagram"></i> </a>
-                <a href="https://github.com/Ayush6968" target="_blank" rel="noopener"> <i class="fab fa-github"></i>
+                <a href="https://www.instagram.com/_ayushguptaa/" target="_blank" rel="noopener"> <span>Ig</span>
                 </a>
-                <a href="https://www.linkedin.com/in/ayush-gupta-54a855139/" target="_blank" rel="noopener"> <i
-                        class="fab fa-linkedin"></i> </a>
+                <a href="https://github.com/Ayush6968" target="_blank" rel="noopener"> <span>Git</span>
+                </a>
+                <a href="https://www.linkedin.com/in/ayush-gupta-54a855139/" target="_blank" rel="noopener">Li </a>
             </div>
 
         </section>
@@ -116,6 +115,8 @@
         function resize() {
             var heights = window.innerHeight;
             document.getElementById("homepg-body").style.height = heights + "px";
+            document.querySelector(".hero-navbar-content-container").style.height = heights + "px";
+            document.querySelector(".main-image").style.height = heights + "px";
         }
         resize();
         window.onresize = function () {
