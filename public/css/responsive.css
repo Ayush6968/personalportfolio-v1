@@ -51,7 +51,7 @@
       margin-top: 0px;
     }
     .email-button-container {
-      margin-top: 15px;
+      margin-top: 20px;
     }
     #email-button {
       padding: 5px 8px;
@@ -81,10 +81,14 @@
     .mainpagetext h3 {
       font-size: 18px;
     }
+    .social-icons a {
+      font-size: 18px;
+    }
   }
   @media screen and (max-width: 380px) {
     .mainpagetext h1 {
-      font-size: 2.5rem;
+      font-size: 2.3rem;
+      font-weight: 900;
     }
     .mainpagetext p {
       font-size: 15px;
