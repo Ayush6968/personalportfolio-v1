@@ -1,9 +1,8 @@
-
 <h1 align="center">
   ayushguptaa.com- v1 👾
 </h1>
 
-[!Ayush Gupta ](https://github.com/Ayush6968/portfolio-v1/public/img/Home-page.png) 
+![Ayush Gupta ](public/img/Home-page.png)
 
 ## 🛠 Installation & Set Up
 
@@ -13,11 +12,8 @@
    npm install
    ```
 
-
 2. Start the development server 🚀
 
    ```sh
    npm run nodemon
    ```
-
-
