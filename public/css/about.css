@@ -62,7 +62,7 @@ body {
 	width: auto;
 }
 .mystory-text h2 {
-	font-size: 1.5rem;
+	font-size: 2.5rem;
 	letter-spacing: 2px;
 	width: auto;
 	font-weight: 300;
@@ -71,9 +71,10 @@ body {
 
 .mystory-text p {
 	font-weight: 300;
-	font-size: 18px;
-	margin-top: 50px;
+	font-size: 28px;
+	margin-top: 35px;
 	letter-spacing: 2px;
+	line-height: 2.5rem;
 }
 
 .myskills {
@@ -84,7 +85,9 @@ body {
 	width: 73%;
 	height: 100%;
 	margin: auto;
-	display: flex;
+	/* display: flex; */
+	/* border: 1px solid red; */
+	justify-content: space-between;
 	padding-top: 30px;
 	position: relative;
 	padding: 10px;
@@ -100,13 +103,20 @@ body {
 .myskillsheading h1 {
 	margin: 0px;
 }
+.myskillsheading h2 {
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	width: auto;
+	font-weight: 300;
+	margin-top: 20px;
+}
 .myskills-content {
 	width: 200px;
-	position: relative;
-	left: 20%;
+	margin-top: 50px;
 }
 
 .myskills-iconandtext {
+	/* margin-right: 5rem; */
 	display: flex;
 	padding: 10px;
 	align-items: center;

@@ -1,0 +1,11 @@
+.footer {
+	width: 90%;
+	font-size: 1.1em;
+	padding: 2rem 1rem;
+	margin: auto;
+	margin-top: 5rem;
+	border-top: 1px solid rgba(223, 218, 213, 0.2);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
