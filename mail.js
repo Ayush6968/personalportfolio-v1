@@ -3,8 +3,6 @@ const mailgun = require('nodemailer-mailgun-transport');
 
 require('dotenv').config();
 
-console.log(process.env);
-
 const auth = {
 	auth: {
 		api_key: process.env.API_KEY,

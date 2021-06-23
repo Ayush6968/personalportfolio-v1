@@ -194,7 +194,7 @@
 
 	.mystory-text p {
 		letter-spacing: 1px;
-		font-size: 0.95rem;
+		font-size: 1rem;
 		margin-top: 35px;
 		line-height: 1.5rem;
 	}
@@ -212,8 +212,8 @@
 	}
 }
 @media screen and (max-width: 565px) {
-	.mystory-text p {
-		font-size: 0.8rem;
+	.mystory-text {
+		width: 90%;
 	}
 }
 @media screen and (max-width: 460px) {
