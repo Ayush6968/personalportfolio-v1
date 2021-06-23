@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap");
 
 * {
    margin: 0px;
@@ -7,7 +7,7 @@
 }
 body {
    background: #000000;
-   font-family: 'DM Sans', sans-serif;
+   font-family: "DM Sans", sans-serif;
    overflow: hidden;
    margin: 0px;
    padding: 0px;
@@ -156,13 +156,13 @@ body {
    left: 30px;
    text-align: center;
    display: flex;
-   gap: 22px;
 }
 .social-icons a {
    font-size: 20px;
    font-weight: lighter;
    text-decoration: none;
    color: #ffffff;
+   padding-right: 25px;
 }
 
 /* preloader css */
@@ -310,7 +310,7 @@ body {
 }
 .shape:before,
 .shape:after {
-   content: '';
+   content: "";
    position: absolute;
    width: 100%;
    height: 100%;
