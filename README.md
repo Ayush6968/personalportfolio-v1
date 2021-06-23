@@ -3,7 +3,7 @@
   ayushguptaa.com- v1 👾
 </h1>
 
-![demo](https://raw.githubusercontent.com/Ayush6968/portfolio-v1/public.img/Home-page.png)
+<img src=(https://raw.githubusercontent.com/Ayush6968/portfolio-v1/public.img/Home-page.png) >
 
 ## 🛠 Installation & Set Up
 
