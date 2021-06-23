@@ -1,11 +1,6 @@
 const express = require('express');
 const hbs = require('hbs');
 const path = require('path');
-const sendMail = require('./mail');
-
-const express = require('express');
-const hbs = require('hbs');
-const path = require('path');
 var bodyParser = require('body-parser');
 const sendMail = require('./mail');
 const { send } = require('process');
