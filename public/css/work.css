@@ -1,102 +1,110 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+   margin: 0px;
+   padding: 0px;
+   box-sizing: border-box;
 }
 body {
-  background: #000000;
-  font-family: "DM Sans", sans-serif;
-  color: white;
-  overflow-x: hidden;
+   background: #000000;
+   font-family: "DM Sans", sans-serif;
+   color: white;
+   overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+   display: none;
+}
+
+body {
+   -ms-overflow-style: none;
+   scrollbar-width: none;
 }
 
 .mywork {
-  margin-top: 100px;
-  padding: 0px;
+   margin-top: 100px;
+   padding: 0px;
 }
 .mywork-container {
-  width: 1200px;
-  margin: auto;
+   width: 1200px;
+   margin: auto;
 }
 
 .mywork-heading {
-  font-size: 2.5rem;
+   font-size: 2.5rem;
 }
 
 .mywork-content {
-  width: 100%;
-  margin-top: 50px;
+   width: 100%;
+   margin-top: 50px;
 
-  padding: 30px 0px;
+   padding: 30px 0px;
 }
 .work-image-content {
-  width: 45%;
-  position: relative;
+   width: 45%;
+   position: relative;
 }
 .img-container {
-  width: 100%;
-  border-top: 1px solid hsla(0, 0%, 100%, 0.25);
-  display: flex;
-  box-sizing: border-box;
-  padding: 20px 0px;
-  justify-content: space-between;
-  position: relative;
+   width: 100%;
+   border-top: 1px solid hsla(0, 0%, 100%, 0.25);
+   display: flex;
+   box-sizing: border-box;
+   padding: 20px 0px;
+   justify-content: space-between;
+   position: relative;
 }
 .img-cont-border {
-  border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
+   border-bottom: 1px solid hsla(0, 0%, 100%, 0.25);
 }
 .img-container h1 {
-  font-size: 2rem;
+   font-size: 2rem;
 }
 .img-container p {
-  font-size: 1.2rem;
+   font-size: 1.2rem;
 }
 .content-container {
-  position: relative;
-  width: 55%;
+   position: relative;
+   width: 55%;
 }
 .content-container img {
-  height: 100%;
-  width: 100%;
-  object-fit: cover;
+   height: 100%;
+   width: 100%;
+   object-fit: cover;
 }
 
 .overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
-  background: rgb(0, 0, 0, 0.2);
-  height: 100%;
-  width: 100%;
+   position: absolute;
+   top: 0px;
+   left: 0px;
+   background: rgb(0, 0, 0, 0.2);
+   height: 100%;
+   width: 100%;
 }
 
 .site-btn-container {
-  position: absolute;
-  bottom: 10px;
+   position: absolute;
+   bottom: 10px;
 }
 #site-btn {
-  color: white;
-  padding: 7px 10px;
-  text-decoration: none;
-  font-size: 15px;
-  letter-spacing: 1px;
-  border: 1.2px solid white;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
+   color: white;
+   padding: 7px 10px;
+   text-decoration: none;
+   font-size: 15px;
+   letter-spacing: 1px;
+   border: 1.2px solid white;
+   -webkit-transition: 0.3s ease-in-out;
+   transition: 0.3s ease-in-out;
 }
 
 #site-btn:hover {
-  color: black;
-  background: white;
-  border: 1.2px solid white;
+   color: black;
+   background: white;
+   border: 1.2px solid white;
 }
 .client {
-  position: absolute;
-  bottom: 5px;
-  left: 40%;
+   position: absolute;
+   bottom: 5px;
+   left: 40%;
 }
 .client-name {
-  position: absolute;
-  bottom: 1px;
-  left: 80%;
+   position: absolute;
+   bottom: 1px;
+   left: 80%;
 }

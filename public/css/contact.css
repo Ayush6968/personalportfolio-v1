@@ -1,79 +1,87 @@
 * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
 }
 body {
-  background: #000000;
-  font-family: "DM Sans", sans-serif;
-  color: white;
+	background: #000000;
+	font-family: 'DM Sans', sans-serif;
+	color: white;
+}
+body::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	-ms-overflow-style: none;
+	scrollbar-width: none;
 }
 .contact-container {
-  height: 100vh;
-  width: 85%;
-  margin: auto;
-  display: flex;
-  justify-content: space-around;
-  z-index: 2;
+	height: 100vh;
+	width: 85%;
+	margin: auto;
+	display: flex;
+	justify-content: space-around;
+	z-index: 2;
 }
 .contact-heading {
-  font-size: 2.5rem;
-  letter-spacing: 2px;
-  font-weight: bold;
-  margin-top: 90px;
+	font-size: 2.5rem;
+	letter-spacing: 2px;
+	font-weight: bold;
+	margin-top: 90px;
 }
 
 #email-form {
-  display: flex;
-  flex-direction: column;
-  margin-top: 50px;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px;
 }
 .text-field {
-  width: 577px;
-  background: transparent;
-  border: none;
-  outline: none;
-  border-bottom: 1px solid gray;
-  color: white;
-  margin-bottom: 35px;
-  height: 36px;
-  font-size: 15px;
+	width: 577px;
+	background: transparent;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: white;
+	margin-bottom: 35px;
+	height: 36px;
+	font-size: 15px;
 }
 .contact-form {
-  height: 600px;
-  margin: auto 0px;
+	height: 600px;
+	margin: auto 0px;
 }
 .label-text {
-  font-size: 17px;
-  padding: 5px;
-  margin-top: 10px;
+	font-size: 17px;
+	padding: 5px;
+	margin-top: 10px;
 }
 .min-height {
-  height: 100px;
-  font-family: "DM Sans", sans-serif;
+	height: 100px;
+	font-family: 'DM Sans', sans-serif;
 }
 #submit-btn {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  color: white;
-  padding: 10px 20px;
-  background: #101010;
-  width: 115px;
-  text-decoration: none;
-  font-size: 17px;
-  letter-spacing: 1px;
-  border: 1.4px solid white;
-  -webkit-transition: 0.3s ease-in-out;
-  transition: 0.3s ease-in-out;
-  padding: 8px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: white;
+	padding: 10px 20px;
+	background: #101010;
+	width: 115px;
+	text-decoration: none;
+	font-size: 17px;
+	letter-spacing: 1px;
+	border: 1.4px solid white;
+	-webkit-transition: 0.3s ease-in-out;
+	transition: 0.3s ease-in-out;
+	padding: 8px;
 }
 
 #submit-btn:hover {
-  -webkit-appearance: none;
-  -moz-appearance: none;
-  appearance: none;
-  color: black;
-  background: white;
-  border: 1.4px solid white;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	color: black;
+	background: white;
+	border: 1.4px solid white;
 }

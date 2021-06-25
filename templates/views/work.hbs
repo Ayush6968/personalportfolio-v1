@@ -19,7 +19,6 @@
     {{>navbar}}
     <section class="mywork">
         <div class="mywork-container">
-
             <div class="mywork-heading">
                 <h1>What i have done</h1>
             </div>
@@ -39,7 +38,28 @@
                         </div>
                     </div>
                     <div class="content-container">
-                        <img class="fade-in-right" src="../img/Cruxe.png" alt="Cruxe" loading='lazy'>
+                        <img class="fade-in-right" src="/img/Cruxe.png" alt="Cruxe" loading='lazy'>
+                        <div class="overlay">
+                        </div>
+                    </div>
+                </div>
+                 <div class="img-container">
+                    <div class="work-image-content  fade-in-left">
+                        <h1>Cruxe Extension</h1>
+                        <p>2021</p>
+                        <div class="site-btn-container">
+                            <a id="site-btn" href="https://github.com/Ayush6968/Cruxe-Extension" target="_blank">See
+                                work</a>
+                        </div>
+                        <div class="client">
+                            <p>Client</p>
+                        </div>
+                        <div class="client-name">
+                            <p>Cruxe</p>
+                        </div>
+                    </div>
+                    <div class="content-container">
+                        <img class="fade-in-right" src="img/extension.png" alt="The Next" loading='lazy'>
                         <div class="overlay">
                         </div>
                     </div>
@@ -86,56 +106,12 @@
                         </div>
                     </div>
                 </div>
-                <div class="img-container">
-                    <div class="work-image-content  fade-in-left">
-                        <h1>NEXT</h1>
-                        <p>2020</p>
-                        <div class="site-btn-container">
-                            <a id="site-btn" href="https://ayush6968.github.io/next.github.io/" target="_blank">See
-                                work</a>
-                        </div>
-                        <div class="client">
-                            <p>Client</p>
-                        </div>
-                        <div class="client-name">
-                            <p>Personal Project</p>
-                        </div>
-                    </div>
-                    <div class="content-container">
-                        <img class="fade-in-right" src="../img/next.png" alt="The Next" loading='lazy'>
-                        <div class="overlay">
-                        </div>
-                    </div>
-                </div>
-
-                <div class="img-container img-cont-border">
-                    <div class="work-image-content  fade-in-left">
-                        <h1>Trvl</h1>
-                        <p>2020</p>
-                        <div class="site-btn-container">
-                            <a id="site-btn" href="https://trvlwebsite.herokuapp.com/" target="_blank">See work</a>
-                        </div>
-                        <div class="client">
-                            <p>Client</p>
-                        </div>
-                        <div class="client-name">
-                            <p>personal project</p>
-                        </div>
-                    </div>
-                    <div class="content-container">
-                        <img class="fade-in-right" src="../img/trvl.png" alt="Trvl" loading='lazy'>
-                        <div class="overlay">
-                        </div>
-                    </div>
-                </div>
+               
             </div>
-        </div>
-
-
-
-
-
+        </div>  
+        {{>Footer}}
     </section>
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
         $(window).on('load', function () {
